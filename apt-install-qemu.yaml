@@ -1,6 +1,6 @@
 ---
  - name: Playbook to install qemu guest agent
-   hosts: webservers
+   hosts: all
    become: true
    tasks: 
     - name: Ansible apt install qemu-guest-agent
